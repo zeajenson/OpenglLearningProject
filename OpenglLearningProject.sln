@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenglLearningProject", "OpenglLearningProject\OpenglLearningProject.vcxproj", "{DE17ED9B-2ACB-4643-A842-EBA3626904D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{98C5C9B7-06DC-4038-9D0C-51C1E9BC1170}"
+	ProjectSection(SolutionItems) = preProject
+		OpenglLearningProject\Display.cpp = OpenglLearningProject\Display.cpp
+		OpenglLearningProject\main.cpp = OpenglLearningProject\main.cpp
+		OpenglLearningProject\Mesh.cpp = OpenglLearningProject\Mesh.cpp
+		OpenglLearningProject\OutputTimer.cpp = OpenglLearningProject\OutputTimer.cpp
+		OpenglLearningProject\Shader.cpp = OpenglLearningProject\Shader.cpp
+		OpenglLearningProject\Texture.cpp = OpenglLearningProject\Texture.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Include", "Include", "{977C1FF1-83DB-4D89-BA4A-485E1065EF22}"
+	ProjectSection(SolutionItems) = preProject
+		OpenglLearningProject\Camera.h = OpenglLearningProject\Camera.h
+		OpenglLearningProject\Display.h = OpenglLearningProject\Display.h
+		OpenglLearningProject\Mesh.h = OpenglLearningProject\Mesh.h
+		OpenglLearningProject\OutputTimer.h = OpenglLearningProject\OutputTimer.h
+		OpenglLearningProject\Shader.h = OpenglLearningProject\Shader.h
+		OpenglLearningProject\Texture.h = OpenglLearningProject\Texture.h
+		OpenglLearningProject\Transform.h = OpenglLearningProject\Transform.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE17ED9B-2ACB-4643-A842-EBA3626904D1}.Debug|x64.ActiveCfg = Debug|x64
+		{DE17ED9B-2ACB-4643-A842-EBA3626904D1}.Debug|x64.Build.0 = Debug|x64
+		{DE17ED9B-2ACB-4643-A842-EBA3626904D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE17ED9B-2ACB-4643-A842-EBA3626904D1}.Debug|x86.Build.0 = Debug|Win32
+		{DE17ED9B-2ACB-4643-A842-EBA3626904D1}.Release|x64.ActiveCfg = Release|x64
+		{DE17ED9B-2ACB-4643-A842-EBA3626904D1}.Release|x64.Build.0 = Release|x64
+		{DE17ED9B-2ACB-4643-A842-EBA3626904D1}.Release|x86.ActiveCfg = Release|Win32
+		{DE17ED9B-2ACB-4643-A842-EBA3626904D1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{977C1FF1-83DB-4D89-BA4A-485E1065EF22} = {98C5C9B7-06DC-4038-9D0C-51C1E9BC1170}
+	EndGlobalSection
+EndGlobal

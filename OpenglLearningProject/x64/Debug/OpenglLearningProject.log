@@ -1,0 +1,7 @@
+﻿  Shader.cpp
+c:\users\laminatedbeef.laminated833f\documents\workspace\vc++ workspace\opengllearningproject\opengllearningproject\shader.h(3): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  main.cpp
+c:\users\laminatedbeef.laminated833f\documents\workspace\vc++ workspace\opengllearningproject\opengllearningproject\main.cpp(1): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Display.cpp
+c:\users\laminatedbeef.laminated833f\documents\workspace\vc++ workspace\opengllearningproject\opengllearningproject\display.h(3): fatal error C1083: Cannot open include file: 'SDL2\SDL.h': No such file or directory
+  Generating Code...
